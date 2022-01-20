@@ -11,3 +11,5 @@ In the virustotal_Api .py, be sure to insert your Virustotal APIKEY in order to 
 https://www.virustotal.com/en/documentation/public-api/
 
 So without further adie, I will present a few simple functions that the module can perform.
+
+Please note that the user can request at most 4 url per a minute because of Virustotal API limitation.
