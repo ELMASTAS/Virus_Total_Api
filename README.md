@@ -1,7 +1,7 @@
 # Virus_Total_Api
 The Virustotal module is a python API module for the Virustotal.com Public API.
 
-Prerequisites:
+Script Prerequisites: 
 pip install requests
 
 This module can be used to url, scan, submit, comment and grab reports from the Virustotals public API. Special thing about this module is, you are giving the user full control on how to present the return results as well as it being cross compatible.
