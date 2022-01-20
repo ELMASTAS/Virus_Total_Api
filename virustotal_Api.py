@@ -22,7 +22,7 @@ for site in dosya:
     elif 1 >= response_json['positives'] >= 3:
 
         vt = open('MAYBE_MALICIOUS.txt', 'a+')
-        vt.write(str(site)) and vt.write('-\tMAYBE MALICIOUS\n')
+        vt.write(str(site)) and vt.write('-\tCOULD BE MALICIOUS\n')
 
     elif response_json['positives'] >= 4:
         vt = open('MALICIOUS.txt', 'a+')
