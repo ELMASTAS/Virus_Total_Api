@@ -8,6 +8,6 @@ This module can be used to url, scan, submit, comment and grab reports from the 
 
 In the virustotal.py, be sure to insert your Virustotal APIKEY in order to query the API. If you do not have a key, you can register for one at the site below.
 
-http://virustotal.com
+https://www.virustotal.com/en/documentation/public-api/
 
 So without further adie, I will present a few simple functions that the module can perform.
